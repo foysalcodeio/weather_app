@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(124deg, rgba(235,235,244,1) 25%, rgba(255,255,255,1) 62%, rgba(222,254,250,1) 100%);
+    
+}
+
+#card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #000c09, #0d0350);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 50px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 3px -7px 39px -14px rgb(219, 115, 219);
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #f1f7f6;
+    color: #000000;
+    padding: 10px 20px;
+    height: 60px;
+    border-radius: 25px;
+    flex: 1;
+    margin-right: 20px;
+    font-size: 20px;
+    box-shadow: 3px -1px 44px 0px rgba(245,44,245,0.77);
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+    border-color: blue;
+}
+button:hover{
+    background-color: white;
+    outline: #0d0350;
+}
+.search:hover{
+    transition: all .4s;
+    transform: scale(1.5);
+}
+.search button img:hover{
+    background-color: white;
+}
+.search button img:hover{
+    width: 16px;
+
+}
+.weather-icon{
+    width: 200px;
+    margin-top: 15px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 50%;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 40px;
+}
+.col img{
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 25px;;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.error{
+    display: none;
+}
